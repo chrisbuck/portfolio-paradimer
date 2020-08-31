@@ -1,0 +1,49 @@
+.exchange-binance {
+    color: #000;
+    text-transform: uppercase;
+    background: #f0b90b;
+    h3{
+        padding: 0 1.2rem;
+    }
+}
+
+.exchange-bittrex {
+    color: #000;
+    text-transform: uppercase;
+    background:#0082d7;
+    h3{
+        padding: 0 1.2rem;
+    }
+    
+}
+
+.exchange-coinbase {
+    color: white;
+    text-transform: lowercase;
+    background: #1652f0;
+    h3{
+        padding: 0 1.2rem;
+    }
+}
+
+.exchange-kucoin {
+    color: #23af91;
+    background: #1f2738;
+    text-transform: uppercase;
+    h3 {
+        padding: 0 1.2rem;
+    }
+}
+
+.text-loss {
+    background: #ffe0e0;
+    color: #c50000;
+    font-weight: 600;
+    padding: 0 1.2rem;
+}
+.text-gain {
+    background: #e0ffe4;
+    color: #00c521;
+    font-weight: 600;
+    padding: 0 1.2rem;
+}

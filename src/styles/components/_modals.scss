@@ -1,0 +1,20 @@
+.ReactModal__Content, .ReactModal__Content--after-open {
+    max-width: 42rem;
+    left: 3rem;
+    right: 3rem;
+    
+    @media ( min-width: 497.01px ){
+        left: calc((100% - 42rem) / 2) !important;
+        right: auto !important;
+    }
+}
+
+.modal__content {
+    display: flex;
+    flex-direction: column;
+    min-width: 39rem;
+}
+
+.modal__content--header{
+    display: flex;
+}
